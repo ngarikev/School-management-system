@@ -1,0 +1,39 @@
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  height: 100vh;
+  position: relative; 
+  overflow-y: auto; 
+  overflow-x: hidden;
+}
+header {
+  z-index: 1000;
+  height:  auto;
+  overflow-x: hidden;
+  background-color: #3B5077;
+  
+}
+
+/* Set the sidebar height and enable vertical scrolling */
+.sidebar {
+  overflow-y: auto;
+  min-height: 100vh;
+  margin-top: -300px;
+  margin-left: -20px;
+  overflow-x: hidden;
+  max-width: 200px !important;
+  background-color: #DA2550;
+
+}
+.dropdown{
+  margin-bottom: 100px !important;
+}
+.content-area{
+  margin-top: -200px;
+}
+
+
+
